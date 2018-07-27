@@ -1,5 +1,5 @@
-# Use latest anapsix/alpine-java:8 image as the base
-FROM anapsix/alpine-java:8
+# Use latest anapsix/alpine-java:8_jdk image as the base
+FROM anapsix/alpine-java:8_jdk
 
 # Set the WILDFLY_VERSION env variable
 ENV WILDFLY_VERSION 13.0.0.Final
